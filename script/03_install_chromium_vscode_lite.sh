@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+############################################################
+# 03_install_chromium_vscode_lite.sh
+############################################################
+
 export DEBIAN_FRONTEND=noninteractive
 
 log() {
