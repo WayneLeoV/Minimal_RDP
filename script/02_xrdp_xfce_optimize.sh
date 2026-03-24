@@ -330,6 +330,11 @@ write_xfce_default_files() {
     <property name="EnableEventSounds" type="bool" value="false"/>
     <property name="EnableInputFeedbackSounds" type="bool" value="false"/>
   </property>
+  <property name="Gtk" type="empty">
+    <property name="MenuImages" type="bool" value="true"/>
+    <property name="ButtonImages" type="bool" value="true"/>
+    <property name="EnableTooltips" type="bool" value="false"/>
+  </property>
 </channel>
 EOF
 
