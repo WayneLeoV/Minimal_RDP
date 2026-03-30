@@ -554,4 +554,4 @@ main() {
   systemctl --no-pager --full --legend=no status xrdp-sesman xrdp | sed -n '1,18p' || true
 }
 
-main "$@" 
+main "$@"
