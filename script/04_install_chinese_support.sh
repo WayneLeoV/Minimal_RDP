@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ############################################################
-# 04_install_chinese_support_systemwide.sh
+# 04_install_chinese_support.sh
 #
 # Objectives:
 #   1) Enable Chinese display support
