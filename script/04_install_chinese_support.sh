@@ -25,13 +25,11 @@ echo "[1/6] Installing Chinese fonts and Fcitx5 packages..."
 apt-get update
 apt-get install -y --no-install-recommends \
   fonts-noto-cjk \
-  fonts-wqy-zenhei \
   fcitx5 \
   fcitx5-chinese-addons \
   fcitx5-frontend-gtk3 \
   fcitx5-frontend-qt5 \
-  fcitx5-config-qt \
-  im-config
+  fcitx5-config-qt
 
 echo "[2/6] Installing system-wide X session hook..."
 install -d /etc/X11/Xsession.d
